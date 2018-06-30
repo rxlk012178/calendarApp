@@ -14,6 +14,8 @@
 		DB918D9920D51C8F00C1E773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB918D9720D51C8F00C1E773 /* LaunchScreen.storyboard */; };
 		DB918DA420D51C8F00C1E773 /* CalenderApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB918DA320D51C8F00C1E773 /* CalenderApp2Tests.swift */; };
 		DB918DAF20D51C8F00C1E773 /* CalenderApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB918DAE20D51C8F00C1E773 /* CalenderApp2UITests.swift */; };
+		DB918DBE20E75EBC00C1E773 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB918DBC20E75EBC00C1E773 /* CollectionViewCell.swift */; };
+		DB918DBF20E75EBC00C1E773 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB918DBD20E75EBC00C1E773 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DB918DAA20D51C8F00C1E773 /* CalenderApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB918DAE20D51C8F00C1E773 /* CalenderApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderApp2UITests.swift; sourceTree = "<group>"; };
 		DB918DB020D51C8F00C1E773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB918DBC20E75EBC00C1E773 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DB918DBD20E75EBC00C1E773 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				DB918D8E20D51C8D00C1E773 /* AppDelegate.swift */,
 				DB918D9020D51C8D00C1E773 /* ViewController.swift */,
 				DB918D9220D51C8D00C1E773 /* Main.storyboard */,
+				DB918DBC20E75EBC00C1E773 /* CollectionViewCell.swift */,
+				DB918DBD20E75EBC00C1E773 /* CollectionViewCell.xib */,
 				DB918D9520D51C8F00C1E773 /* Assets.xcassets */,
 				DB918D9720D51C8F00C1E773 /* LaunchScreen.storyboard */,
 				DB918D9A20D51C8F00C1E773 /* Info.plist */,
@@ -231,6 +237,7 @@
 			files = (
 				DB918D9920D51C8F00C1E773 /* LaunchScreen.storyboard in Resources */,
 				DB918D9620D51C8F00C1E773 /* Assets.xcassets in Resources */,
+				DB918DBF20E75EBC00C1E773 /* CollectionViewCell.xib in Resources */,
 				DB918D9420D51C8D00C1E773 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				DB918D9120D51C8D00C1E773 /* ViewController.swift in Sources */,
 				DB918D8F20D51C8D00C1E773 /* AppDelegate.swift in Sources */,
+				DB918DBE20E75EBC00C1E773 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
